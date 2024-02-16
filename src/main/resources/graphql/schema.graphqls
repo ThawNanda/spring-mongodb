@@ -1,0 +1,20 @@
+
+type Query{
+    findAll:[User]
+    findById(id: ID):User
+    findAllPosts:[Post]
+    findPostById(id:ID!):Post
+    getPosts(page: Int, size: Int): [Post]
+}
+type Mutation {
+    create(
+        username: String,
+        fullName: String,
+        email: String,
+        password: String,
+        address: AddressInput,
+        gender: String
+    ): User
+}
+
+

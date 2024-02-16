@@ -1,0 +1,11 @@
+type Address{
+    city:String
+    country:String
+    postCode:String
+}
+
+input AddressInput {
+    city: String
+    country: String
+    postCode: String
+}

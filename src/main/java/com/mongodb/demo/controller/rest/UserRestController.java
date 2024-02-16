@@ -1,11 +1,10 @@
-package com.mongodb.demo.controller;
+package com.mongodb.demo.controller.rest;
 
 import com.mongodb.demo.model.dto.UserDto;
 import com.mongodb.demo.security.CurrentUser;
 import com.mongodb.demo.security.UserPrincipal;
 import com.mongodb.demo.service.UserService;
 import lombok.RequiredArgsConstructor;
-import org.apache.coyote.Response;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -15,7 +14,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/v1/users")
 @RequiredArgsConstructor
-public class UserController {
+public class UserRestController {
 
     private final UserService userService;
 

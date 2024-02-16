@@ -1,0 +1,9 @@
+scalar Date
+
+type Post{
+    id:ID!
+    title:String
+    content:String
+    userId:String
+    date:Date
+}

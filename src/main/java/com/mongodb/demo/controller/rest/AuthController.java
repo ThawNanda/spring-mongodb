@@ -1,4 +1,4 @@
-package com.mongodb.demo.controller;
+package com.mongodb.demo.controller.rest;
 
 import com.mongodb.demo.model.request.LoginRequest;
 import com.mongodb.demo.model.request.SignUpRequest;

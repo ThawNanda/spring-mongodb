@@ -1,4 +1,4 @@
-package com.mongodb.demo.controller;
+package com.mongodb.demo.controller.rest;
 
 import com.mongodb.demo.model.request.CommentRequest;
 import com.mongodb.demo.security.CurrentUser;
